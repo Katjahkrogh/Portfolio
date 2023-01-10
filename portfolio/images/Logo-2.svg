@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="174" height="205" viewBox="0 0 174 205">
+  <defs>
+    <clipPath id="clip-Logo-2">
+      <rect width="174" height="205"/>
+    </clipPath>
+  </defs>
+  <g id="Logo-2" clip-path="url(#clip-Logo-2)">
+    <text id="KHK" transform="translate(77 178) rotate(-90)" fill="#fff" font-size="71" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0" y="0">K</tspan><tspan y="0" fill="#8dfdce">H</tspan><tspan y="0" fill="#8e7e5d">K</tspan></text>
+    <text id="KHK-2" data-name="KHK" transform="translate(99 22) rotate(90)" fill="#fff" font-size="71" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0" y="0">K</tspan><tspan y="0" fill="#8dfdce">H</tspan><tspan y="0" fill="#8e7e5d">K</tspan></text>
+  </g>
+</svg>

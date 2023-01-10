@@ -34,6 +34,15 @@
   max-height: 32%;
   margin-bottom: 10%;
 }
+
+@media (max-width: 800px) {
+  .portræt-forside {
+    max-width: 63%;
+    max-height: 63%;
+    margin-bottom: 0%;
+  }
+}
+
 /* ------------ Burgermenu -------------- */
 
 .toggle-btn {
@@ -245,9 +254,15 @@ nav a:hover {
 }
 
 hr {
+  background: linear-gradient(
+    to left,
+    #0d0d0d 0%,
+    #0d0d0d 50%,
+    #f2f2f2 50%,
+    #f2f2f2 100%
+  );
   margin-bottom: 50px;
-  color: #0d0d0d;
-  border-top: 2px solid #0d0d0d;
+  height: 2px;
 }
 
 #second_section {
@@ -281,18 +296,21 @@ h5 {
   text-align: left;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .katja {
     font-size: 2rem;
+    align-items: center;
   }
   .hvid {
     font-size: 2rem;
+    align-items: center;
   }
   .krogh {
     font-size: 2rem;
+    align-items: center;
   }
   #first_section {
-    height: 80vh;
+    height: 70vh;
   }
   #h3-cv {
     font-size: 1.5rem;
@@ -305,6 +323,20 @@ h5 {
   }
   p {
     font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .img-om {
+    max-width: 250%;
+    max-height: 250%;
+    margin-left: 90%;
+  }
+  .h1-container {
+    margin-top: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
   }
 }
 

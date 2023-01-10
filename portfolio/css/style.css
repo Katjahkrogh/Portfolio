@@ -202,6 +202,26 @@ nav a:hover {
   .h1-projekter {
     font-size: 50%;
   }
+  .portfolio {
+    margin-left: 32%;
+    margin-right: 32%;
+  }
+  .web {
+    margin-left: 32%;
+    margin-right: 32%;
+  }
+  .ux {
+    margin-left: 32%;
+    margin-right: 32%;
+  }
+  .indhold {
+    margin-left: 32%;
+    margin-right: 32%;
+  }
+  .animation {
+    margin-left: 32%;
+    margin-right: 32%;
+  }
 }
 
 /* ----------- Om mig ------------- */

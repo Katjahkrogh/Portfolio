@@ -55,15 +55,17 @@ p {
   color: #0d0d0d;
 }
 
-#grid_1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding-top: 2%;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-bottom: 5%;
-  row-gap: 4em;
-  column-gap: 4em;
+@media (min-width: 650px) {
+  #grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+    row-gap: 4em;
+    column-gap: 4em;
+  }
 }
 
 .img-projekter {
@@ -79,7 +81,7 @@ p {
   color: #8c7d61;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .h3-projekter {
     font-size: 0.9rem;
   }
@@ -92,4 +94,19 @@ p {
   .a-projekter {
     font-size: 0.8rem;
   }
+}
+
+@media (max-width: 650px) {
+  .projekter {
+    color: #f2f2f2;
+    background-color: #0d0d0d;
+    opacity: 80%;
+  }
+  .h3-projekter {
+    border-bottom: #8c7d61 solid 2px;
+  }
+  .h1-projekter {
+    text-align: center;
+  }
+ 
 }

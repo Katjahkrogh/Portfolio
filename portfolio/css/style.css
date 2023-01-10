@@ -109,21 +109,21 @@ nav a:hover {
 }
 
 /* -------------- Projekter ------------- */
-#a1 {
+.a1 {
   text-decoration: none;
   color: #f2f2f2;
 }
 
-#a2 {
+.a2 {
   text-decoration: none;
   color: #0d0d0d;
 }
 
-#a1:hover {
+.a1:hover {
   color: black;
 }
 
-#a2:hover {
+.a2:hover {
   color: white;
 }
 
@@ -191,7 +191,7 @@ nav a:hover {
   .forside_h1 {
     font-size: 250%;
   }
-  #h1-projekter {
+  .h1-projekter {
     font-size: 50%;
   }
 }
@@ -274,7 +274,7 @@ h5 {
   font-size: 2rem;
 }
 
-#p-om {
+.p-om {
   color: #f2f2f2;
   font-family: "Poppins", sans-serif;
   margin-left: 5%;
@@ -301,7 +301,7 @@ h5 {
   #om {
     font-size: 1.5rem;
   }
-  #p-om {
+  .p-om {
     font-size: 0.8rem;
   }
   p {

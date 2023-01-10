@@ -23,7 +23,7 @@
   margin-right: 15%; */
 }
 
-#h1-projekter {
+.h1-projekter {
   display: flex;
   color: #8c7d61;
   justify-content: center;
@@ -33,7 +33,7 @@
   padding-top: 1%;
 }
 
-#h3-start {
+.h3-start {
   font-family: "Poppins", sans-serif;
   padding-top: 1%;
   padding-left: 15%;
@@ -44,12 +44,12 @@
 p {
   font-family: "Poppins", sans-serif;
 }
-#h3-projekter {
+.h3-projekter {
   font-family: "Poppins", sans-serif;
   border-bottom: #0d0d0d solid 2px;
 }
 
-#projekter {
+.projekter {
   padding-top: 5%;
   padding-bottom: 5%;
   color: #0d0d0d;
@@ -66,13 +66,13 @@ p {
   column-gap: 4em;
 }
 
-#img-projekter {
+.img-projekter {
   max-width: 100%;
   max-height: 100%;
   padding-top: 10%;
 }
 
-#a-projekter {
+.a-projekter {
   font-family: "Poppins", sans-serif;
   /* text-decoration: none; */
   line-height: 2em;
@@ -80,16 +80,16 @@ p {
 }
 
 @media (max-width: 800px) {
-  #h3-projekter {
+  .h3-projekter {
     font-size: 0.9rem;
   }
-  #h1-projekter {
+  .h1-projekter {
     font-size: 2rem;
   }
-  #h3-start {
+  .h3-start {
     font-size: 0.9rem;
   }
-  #a-projekter {
+  .a-projekter {
     font-size: 0.8rem;
   }
 }
